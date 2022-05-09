@@ -1,12 +1,42 @@
+// NAVIGATION BAR START
 .sub-menu-1{
     display: none;
 }
 .navbar{
     .dropdown-menu{
-        li{
-            &:hover .sub-menu-1{
+        .sub-menu-1{
+            ul{
+                list-style-type: none;
+                list-style-position: inside;
+                    &:hover li{
+                        cursor: pointer;
+                    }
+                }
+            }
+            li{
+                &:hover .sub-menu-1{
+                    display: block;
+                }
+            }
+    }
+    .search{
+        margin-left: auto;
+        margin-right: 2px;
+    }
+}
+// NAVIGATION BAR END
+
+#carousel{
+    .carousel{
+        .carousel-inner{
+            height: 35rem;
+            img{
                 display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
             }
         }
     }
 }
+

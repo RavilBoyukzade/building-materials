@@ -2,7 +2,32 @@
   display: none;
 }
 
+.navbar .dropdown-menu .sub-menu-1 ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.navbar .dropdown-menu .sub-menu-1 ul:hover li {
+  cursor: pointer;
+}
+
 .navbar .dropdown-menu li:hover .sub-menu-1 {
   display: block;
+}
+
+.navbar .search {
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+#carousel .carousel .carousel-inner {
+  height: 35rem;
+}
+
+#carousel .carousel .carousel-inner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
