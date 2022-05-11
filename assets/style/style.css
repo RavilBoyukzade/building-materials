@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto+Slab", sans-serif;
+  text-transform: capitalize;
+}
+
 .sub-menu-1 {
   display: none;
 }
@@ -29,5 +35,28 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#category .title {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#category .title h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14%;
+  font-weight: 500;
+}
+
+.card-margin {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: #333;
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */

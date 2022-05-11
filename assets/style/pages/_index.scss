@@ -26,6 +26,7 @@
 }
 // NAVIGATION BAR END
 
+//CAROUSEL START
 #carousel{
     .carousel{
         .carousel-inner{
@@ -39,4 +40,30 @@
         }
     }
 }
+//CAROUSEL END
 
+//TITLE SECTION START
+#category{
+    .title{
+        margin-top: 20px;
+        padding: 10px;
+        h3{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 14%;
+            font-weight: 500;
+        }
+    }
+}
+//TITLE SECTION END
+
+.card-margin{
+    margin-top: 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: $gray-color;
+    height: 200px;
+}
