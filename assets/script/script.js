@@ -1,4 +1,5 @@
-function Show(){
-    var x = document.getElementsByClassName("sub-menu-1");
-    x.style.display("blok");
-}
+$(".cat-title").click(function () {
+    $(".cat-list").toggle("slow", function () {
+        // Animation complete.
+    });
+});
