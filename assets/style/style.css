@@ -4,26 +4,55 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
 }
 
-.sub-menu-1 {
-  display: none;
+header .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b9b4b4;
 }
 
-.navbar .dropdown-menu .sub-menu-1 ul {
-  list-style-type: none;
-  list-style-position: inside;
+header .information .info-text {
+  margin-right: auto;
+  margin-left: 10px;
 }
 
-.navbar .dropdown-menu .sub-menu-1 ul:hover li {
-  cursor: pointer;
+header .information .info-text a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-.navbar .dropdown-menu li:hover .sub-menu-1 {
-  display: block;
+header .information .info-text a:hover {
+  color: #ffff;
 }
 
-.navbar .search {
+header .information .info-icons {
+  margin-right: 10px;
   margin-left: auto;
-  margin-right: 2px;
+}
+
+header .information .info-icons .fa-facebook-f {
+  color: #ffff;
+}
+
+header .information .info-icons .fa-facebook-f:hover {
+  color: #1877f2;
+}
+
+header .information .info-icons .fa-instagram {
+  color: #ffff;
+}
+
+header .information .info-icons .fa-instagram:hover {
+  color: #c32aa3;
+}
+
+header .information .info-icons .fa-vk {
+  color: #ffff;
+}
+
+header .information .info-icons .fa-vk:hover {
+  color: #4a76a8;
 }
 
 #carousel .carousel .carousel-inner {

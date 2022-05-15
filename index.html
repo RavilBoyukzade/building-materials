@@ -11,67 +11,40 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="assets/style/style.css">
+    <!-- FONTAWESOME ICON SCRIPT -->
+    <script src="https://kit.fontawesome.com/c2eb93d443.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- HEADER BODY START -->
     <header>
+        <!-- INFORMATION SECTION START -->
+        <section>
+            <div class="information fixed-top">
+                <div class="info-text">
+                    <a href="#">FAQ</a>
+                    <span>|</span>
+                    <a href="#">Помощь</a>
+                    <span>|</span>
+                    <a href="#">Поддержка</a>
+                </div>
+                <div class="info-icons">
+                    <a href="http://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://vk.com"><i class="fa-brands fa-vk"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- INFORMATION SECTION END -->
         <!-- NAVIGATION START -->
         <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top bg-light mt-4">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Ваш логотип</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Главная</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Товары
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Сыпучие материалы</a>
-                                        <div class="sub-menu-1">
-                                            <ul>
-                                                <li><a href="#" class="dropdow-item"></a>Шпатлевка</li>
-                                                <li><a href="#" class="dropdow-item"></a>Штукатурка</li>
-                                                <li><a href="#" class="dropdow-item"></a>Наливной пол</li>
-                                                <li><a href="#" class="dropdow-item"></a>Клей</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    
-                                    <li><a class="dropdown-item" href="#">Инертные материалы</a>
-                                    <div class="sub-menu-1">
-                                        <ul>
-                                            <li><a href="#" class="dropdow-item"></a>Шпатлевка</li>
-                                            <li><a href="#" class="dropdow-item"></a>Штукатурка</li>
-                                            <li><a href="#" class="dropdow-item"></a>Наливной пол</li>
-                                            <li><a href="#" class="dropdow-item"></a>Клей</li>
-                                        </ul>
-                                    </div></li>
-                                    <li><a class="dropdown-item" href="#">Металлопркат</a></li>
-                                    <li><a class="dropdown-item" href="#">Блоки, Кирпичи</a></li>
-                                    <li><a class="dropdown-item" href="#">Бетон, Асфальт</a></li>
-                                    <li><a class="dropdown-item" href="#">Утеплители</a></li>
-                                    <li><a class="dropdown-item" href="#">Электрические инструменты</a></li>
-                                    <li><a class="dropdown-item" href="#">Сантехника</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <form class="d-flex search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
+                    <a class="navbar-brand">Стройматериалы</a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Hазвание товара" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Поск</button>
+                    </form>
                 </div>
             </nav>
         </section>
