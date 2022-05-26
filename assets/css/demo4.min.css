@@ -14330,7 +14330,7 @@ body .product-popup {
   position: relative;
   padding: 1.8rem 0 1.7rem 0;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 2rem;
   letter-spacing: -0.009em;
   line-height: 1.1;
   text-transform: capitalize;
@@ -15882,6 +15882,7 @@ body .product-popup {
 .brand-col .brand-wrapper {
   border-left: none;
 }
+
 
 /* Responsive */
 @media (max-width: 1199px) {
